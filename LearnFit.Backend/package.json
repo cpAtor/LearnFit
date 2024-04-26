@@ -1,0 +1,22 @@
+{
+  "name": "LearnFit.Backend",
+  "version": "1.0.0",
+  "description": "Signaling server for LearnFit webrtc connection",
+  "main": "index.ts",
+  "author": "cpAtor",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
